@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         {/*====== Title ======*/}
-        <title>Gowilds - Tours and Travel React NextJS Template</title>
+        <title>Mise Cave Lodge - Your welcoming home at Sipi</title>
         {/*====== Favicon Icon ======*/}
         <link
           rel="shortcut icon"
