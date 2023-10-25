@@ -212,7 +212,7 @@ const Index2 = () => {
             <div className="col-xl-8">
               {/*=== Section Title ===*/}
               <div className="section-title text-center mb-45 wow fadeInDown">
-                <span className="sub-title">Popular Activities</span>
+                {/* <span className="sub-title">Popular Activities</span> */}
                 <h2>Explore Real Adventure</h2>
               </div>
             </div>
@@ -294,16 +294,13 @@ const Index2 = () => {
               {/*=== About Content Box ===*/}
               <div className="about-two_content-box mb-35 wow fadeInLeft">
                 <div className="section-title mb-30">
-                  <span className="sub-title">About Company</span>
+                  {/* <span className="sub-title">About Company</span> */}
                   <h2>
-                    We Are Most Funning Company About Travel and Adventure
+                    MiseCave Lodge
                   </h2>
                 </div>
                 <p>
-                  Sit amet consectetur. Velit integer tincidunt sceleries
-                  nodalesry volutpat neque fermentum malesuada sceleris quecy
-                  massa lacus Ultrices eget leo cras odio blandit rhoncus eues
-                  feugiat
+                The lodge's rustic yet elegant design effortlessly blends with the natural surroundings, creating a harmonious fusion of modern comforts and traditional charm. As you wander along the winding pathway that meanders through the verdant little forest, you'll find yourself guided to the entrance of the restaurant, where the gentle sound of a nearby waterfall adds to the ambiance of serenity
                 </p>
                 <div className="card-list">
                   <div className="card-item">
@@ -365,27 +362,24 @@ const Index2 = () => {
               {/*=== We Content Box ===*/}
               <div className="we-one_content-box wow fadeInRight">
                 <div className="section-title mb-30">
-                  <span className="sub-title">Who We Are</span>
-                  <h2>Great Opportunity For Adventure &amp; Travels</h2>
+                  {/* <span className="sub-title">Who We Are</span> */}
+                  <h2>Built for adventourous travelors</h2>
                 </div>
                 <p>
-                  Set perspiciatis unde omnis iste natus error voluptatem
-                  accusantium doloremue laudantium totam rem aperiam eaque quae
-                  abillo inventore veritatis et quasi architecto beatae vitae
-                  dicta sunt explicabo.
+                Immerse yourself in the breathtaking beauty of the Sipi Viplley, flatlands, and Karamoja plains from one of our 9 self-contained double rooms. Nestled amidst the forest, this picturesque resort is perfectly situated between two gentle waterfalls, including the legendary Mise Cave.
                 </p>
                 <div className="skill-wrapper">
                   <div className="single-skill-circle text-center">
                     <div className="inner-circle">
                       <div className="line" />
-                      <span className="number">60%</span>
+                      <span className="number">99%</span>
                     </div>
                     <h5>Saticfied Clients</h5>
                   </div>
                   <div className="single-skill-circle text-center">
                     <div className="inner-circle">
                       <div className="line" />
-                      <span className="number">93%</span>
+                      <span className="number">99%</span>
                     </div>
                     <h5>Success Rate</h5>
                   </div>
