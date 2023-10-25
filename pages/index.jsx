@@ -195,18 +195,6 @@ const Index2 = () => {
                   name="text"
                 />
               </div>
-              {/* <div className="form_group">
-                <span>Accommodations</span>
-                <select className="wide">
-                  <option data-display="Accommodations">Accommodations</option>
-                  <option value={1}>Classic Tent</option>
-                  <option value={1}>Forest Camping</option>
-                  <option value={1}>Small Trailer</option>
-                  <option value={1}>Tree House Tent</option>
-                  <option value={1}>Tent Camping</option>
-                  <option value={1}>Couple Tent</option>
-                </select>
-              </div> */}
               <div className="form_group">
                 <button className="booking-btn">
                   Check Availability <i className="far fa-angle-double-right" />
@@ -235,7 +223,7 @@ const Index2 = () => {
               <div className="single-features-item-two mb-40 wow fadeInUp">
                 <div className="img-holder">
                   <img
-                    src="assets/images/features/feat-5.jpg"
+                    src="assets/images/features/hiking.jpg"
                     alt="Features Image"
                   />
                   <div className="item-overlay">
@@ -251,7 +239,7 @@ const Index2 = () => {
               <div className="single-features-item-two mb-40 wow fadeInDown">
                 <div className="img-holder">
                   <img
-                    src="assets/images/features/feat-6.jpg"
+                    src="assets/images/features/rock_climbing.jpg"
                     alt="Features Image"
                   />
                   <div className="item-overlay">
@@ -267,7 +255,7 @@ const Index2 = () => {
               <div className="single-features-item-two mb-40 wow fadeInUp">
                 <div className="img-holder">
                   <img
-                    src="assets/images/features/feat-7.jpg"
+                    src="assets/images/features/culture.jpg"
                     alt="Features Image"
                   />
                   <div className="item-overlay">
@@ -283,7 +271,7 @@ const Index2 = () => {
               <div className="single-features-item-two mb-40 wow fadeInDown">
                 <div className="img-holder">
                   <img
-                    src="assets/images/features/feat-8.jpg"
+                    src="assets/images/features/bird_watching.jpg"
                     alt="Features Image"
                   />
                   <div className="item-overlay">
@@ -415,8 +403,8 @@ const Index2 = () => {
             <div className="col-xl-7">
               {/*=== Section Title ===*/}
               <div className="section-title text-center text-white mb-50 wow fadeInDown">
-                <span className="sub-title">Popular Services</span>
-                <h2>Amazing Adventure Camping Services for Enjoyed</h2>
+                <span className="sub-title">Our rooms</span>
+                <h2>Beautiful rooms</h2>
               </div>
             </div>
           </div>
