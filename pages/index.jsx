@@ -21,7 +21,8 @@ const Index2 = () => {
               <div
                 className="image-layer bg_cover"
                 style={{
-                  backgroundImage: "url(assets/images/hero/entrance.jpg)",
+                  backgroundImage: "url(assets/images/hero/stairs.jpg)",
+                  backgroundPosition: "top center",
                 }}
               />
               <div className="container-fluid">
@@ -55,7 +56,8 @@ const Index2 = () => {
               <div
                 className="image-layer bg_cover"
                 style={{
-                  backgroundImage: "url(assets/images/hero/hero-two_img-2.jpg)",
+                  backgroundImage: "url(assets/images/hero/stairs_2.jpg)",
+                  backgroundPosition: "bottom center",
                 }}
               />
               <div className="container-fluid">
@@ -334,7 +336,7 @@ const Index2 = () => {
               {/*=== About Image Box ===*/}
               <div className="about-one_image-box mb-50 wow fadeInRight">
                 <img
-                  src="assets/images/about/about-1.jpg"
+                  src="assets/images/about/bed.jpeg"
                   className="radius-top-left-right-288"
                   alt="About image"
                 />
@@ -352,7 +354,7 @@ const Index2 = () => {
               {/*=== We Image Box ===*/}
               <div className="we-image-box text-center text-lg-left wow fadeInLeft">
                 <img
-                  src="assets/images/gallery/we-1.jpg"
+                  src="assets/images/about/cave.jpg"
                   className="radius-top-left-right-288"
                   alt="Image"
                 />
