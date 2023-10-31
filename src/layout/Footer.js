@@ -1,7 +1,7 @@
 const Footer = ({ bg, extraClass }) => {
   return (
     <footer
-      className={`main-footer ${bg ? bg : "black"}-bg ${
+      className={`main-footer ${bg ? bg : "light"}-bg ${
         extraClass ? extraClass : ""
       }`}
     >
@@ -16,12 +16,12 @@ const Footer = ({ bg, extraClass }) => {
                   <img src="assets/images/icon/support.png" alt="Icon" />
                 </div>
                 <div className="content">
-                  <h3 className="title">
-                    Need Any Support For Tour &amp; Travels ?
-                  </h3>
-                  <a href="#" className="icon-btn">
-                    <i className="far fa-long-arrow-right" />
-                  </a>
+                  <h4 className="title">
+                    +256 740515555
+                  </h4>
+                  <h4 className="title">
+                    +256 740515550
+                  </h4>
                 </div>
               </div>
             </div>
@@ -32,12 +32,9 @@ const Footer = ({ bg, extraClass }) => {
                   <img src="assets/images/icon/travel.png" alt="Icon" />
                 </div>
                 <div className="content">
-                  <h3 className="title">
-                    Ready to Get Started With Vacations!
-                  </h3>
-                  <a href="#" className="icon-btn">
-                    <i className="far fa-long-arrow-right" />
-                  </a>
+                  <h4 className="title">
+                    info@misecavelodge.com
+                  </h4>
                 </div>
               </div>
             </div>

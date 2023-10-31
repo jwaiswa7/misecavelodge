@@ -340,150 +340,17 @@ const Index2 = () => {
         </div>
       </section>
       {/*====== End We Section ======*/}
-      {/*====== Start Services Section ======*/}
-      <section className="services-section black-bg pt-100 pb-100">
+      {/*====== Start Activity Section ======*/}
+      <section className="activity-section black-bg pt-80 pb-60">
         <div className="container-fluid">
           <div className="row justify-content-center">
-            <div className="col-xl-7">
-              {/*=== Section Title ===*/}
-              <div className="section-title text-center text-white mb-50 wow fadeInDown">
-                <span className="sub-title">Our rooms</span>
-                <h2>Beautiful rooms</h2>
-              </div>
+          <div className="col-xl-7">
+            {/*=== Section Title ===*/}
+            <div className="section-title text-center text-white mb-50 wow fadeInDown">
+              <h2>Our Rooms</h2>
             </div>
           </div>
-          {/*=== Service Slider One ===*/}
-          <Slider
-            {...sliderActive4Item}
-            className="slider-active-4-item wow fadeInUp"
-          >
-            {/*=== Single Service Item ===*/}
-            <div className="single-service-item-two">
-              <div
-                className="hover-bg bg_cover"
-                style={{
-                  backgroundImage: "url(assets/images/service/hover-bg.jpg)",
-                }}
-              />
-              <div className="content">
-                <div className="icon">
-                  <i className="flaticon-camping" />
-                </div>
-                <h3 className="title">
-                  <a href="#">Tent Camping</a>
-                </h3>
-                <p>
-                  Sit amet consectetur integer tincidunt nodalesry volutpat
-                  neque ferme malesua da sceleris quecy massa lacus
-                </p>
-                <a href="#" className="btn-link">
-                  Read More <i className="far fa-long-arrow-right" />
-                </a>
-              </div>
-            </div>
-            {/*=== Single Service Item ===*/}
-            <div className="single-service-item-two">
-              <div
-                className="hover-bg bg_cover"
-                style={{
-                  backgroundImage: "url(assets/images/service/hover-bg.jpg)",
-                }}
-              />
-              <div className="content">
-                <div className="icon">
-                  <i className="flaticon-cable-car" />
-                </div>
-                <h3 className="title">
-                  <a href="#">Glamping Cabin</a>
-                </h3>
-                <p>
-                  Sit amet consectetur integer tincidunt nodalesry volutpat
-                  neque ferme malesua da sceleris quecy massa lacus
-                </p>
-                <a href="#" className="btn-link">
-                  Read More <i className="far fa-long-arrow-right" />
-                </a>
-              </div>
-            </div>
-            {/*=== Single Service Item ===*/}
-            <div className="single-service-item-two">
-              <div
-                className="hover-bg bg_cover"
-                style={{
-                  backgroundImage: "url(assets/images/service/hover-bg.jpg)",
-                }}
-              />
-              <div className="content">
-                <div className="icon">
-                  <i className="flaticon-trailer" />
-                </div>
-                <h3 className="title">
-                  <a href="#">RV Caravan Trailers</a>
-                </h3>
-                <p>
-                  Sit amet consectetur integer tincidunt nodalesry volutpat
-                  neque ferme malesua da sceleris quecy massa lacus
-                </p>
-                <a href="#" className="btn-link">
-                  Read More <i className="far fa-long-arrow-right" />
-                </a>
-              </div>
-            </div>
-            {/*=== Single Service Item ===*/}
-            <div className="single-service-item-two">
-              <div
-                className="hover-bg bg_cover"
-                style={{
-                  backgroundImage: "url(assets/images/service/hover-bg.jpg)",
-                }}
-              />
-              <div className="content">
-                <div className="icon">
-                  <i className="flaticon-firewood" />
-                </div>
-                <h3 className="title">
-                  <a href="#">Woodfire &amp; BBQ Party</a>
-                </h3>
-                <p>
-                  Sit amet consectetur integer tincidunt nodalesry volutpat
-                  neque ferme malesua da sceleris quecy massa lacus
-                </p>
-                <a href="#" className="btn-link">
-                  Read More <i className="far fa-long-arrow-right" />
-                </a>
-              </div>
-            </div>
-            {/*=== Single Service Item ===*/}
-            <div className="single-service-item-two">
-              <div
-                className="hover-bg bg_cover"
-                style={{
-                  backgroundImage: "url(assets/images/service/hover-bg.jpg)",
-                }}
-              />
-              <div className="content">
-                <div className="icon">
-                  <i className="flaticon-cable-car" />
-                </div>
-                <h3 className="title">
-                  <a href="#">Glamping Cabin</a>
-                </h3>
-                <p>
-                  Sit amet consectetur integer tincidunt nodalesry volutpat
-                  neque ferme malesua da sceleris quecy massa lacus
-                </p>
-                <a href="#" className="btn-link">
-                  Read More <i className="far fa-long-arrow-right" />
-                </a>
-              </div>
-            </div>
-          </Slider>
-        </div>
-      </section>
-      {/*====== End Services Section ======*/}
-      {/*====== Start Activity Section ======*/}
-      <section className="activity-section pb-60">
-        <div className="container-fluid">
+          </div>
           {/*=== Slider Active Item ===*/}
           <Slider
             {...sliderActive3Item}
@@ -523,11 +390,21 @@ const Index2 = () => {
                     4.9
                   </div>
                 </div>
-                <h3 className="title">Classic Tents</h3>
-                <p>
-                  Quis autem veleum reprehenderit voluptate velit esse quame
-                  nihile molestiae consequatur veillum dolorem eumy
-                </p>
+                <h3 className="title">Single Occupancy</h3>
+                <table className="table table-bordered">
+                  <tr>
+                    <th>Bed & Breakfast</th>
+                    <td>USD 69<br/> UGX 250,000</td>
+                  </tr>
+                  <tr>
+                    <th>Hald board</th>
+                    <td>USD 79<br/> UGX 290,000</td>
+                  </tr>
+                  <tr>
+                    <th>Full board</th>
+                    <td>USD 89<br/> UGX 330,000</td>
+                  </tr>
+                </table>
                 <a href="#" className="main-btn filled-btn">
                   Check Now
                   <i className="fas fa-paper-plane" />
@@ -568,11 +445,21 @@ const Index2 = () => {
                     4.9
                   </div>
                 </div>
-                <h3 className="title">Small Cabin Wood</h3>
-                <p>
-                  Quis autem veleum reprehenderit voluptate velit esse quame
-                  nihile molestiae consequatur veillum dolorem eumy
-                </p>
+                <h3 className="title">Double Occupancy</h3>
+                <table className="table table-bordered">
+                  <tr>
+                    <th>Bed & Breakfast</th>
+                    <td>USD 75<br/> UGX 270,000</td>
+                  </tr>
+                  <tr>
+                    <th>Hald board</th>
+                    <td>USD 95<br/> UGX 350,000</td>
+                  </tr>
+                  <tr>
+                    <th>Full board</th>
+                    <td>USD 115<br/> UGX 430,000</td>
+                  </tr>
+                </table>
                 <a href="#" className="main-btn filled-btn">
                   Check Now
                   <i className="fas fa-paper-plane" />
@@ -613,11 +500,21 @@ const Index2 = () => {
                     4.9
                   </div>
                 </div>
-                <h3 className="title">RV Caravan Trailer</h3>
-                <p>
-                  Quis autem veleum reprehenderit voluptate velit esse quame
-                  nihile molestiae consequatur veillum dolorem eumy
-                </p>
+                <h3 className="title">Honeymoon suite</h3>
+                <table className="table table-bordered">
+                  <tr>
+                    <th>Bed & Breakfast</th>
+                    <td>USD 99<br/> UGX 360,000</td>
+                  </tr>
+                  <tr>
+                    <th>Hald board</th>
+                    <td>USD 119<br/> UGX 440,000</td>
+                  </tr>
+                  <tr>
+                    <th>Full board</th>
+                    <td>USD 139<br/> UGX 520,000</td>
+                  </tr>
+                </table>
                 <a href="#" className="main-btn filled-btn">
                   Check Now
                   <i className="fas fa-paper-plane" />
@@ -653,93 +550,6 @@ const Index2 = () => {
         </div>
       </section>
       {/*====== End CTA Section ======*/}
-      {/*====== Start Blog Section ======*/}
-      <section className="blog-section pt-100 pb-60">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-xl-6">
-              {/*=== Blog Content Box ===*/}
-              <div className="blog-content-box mb-40 wow fadeInLeft">
-                {/*=== Section Title ===*/}
-                <div className="section-title mb-30">
-                  <span className="sub-title">News &amp; Blog</span>
-                  <h2>
-                    Amazing News &amp; Blog For Every Single Update Articles
-                    &amp; Tips
-                  </h2>
-                </div>
-                <p className="mb-20">
-                  Sit amet consectetur. Velit integer tincidunt sceleries
-                  nodalesry volutpat neque fermentum malesuada sceleris quecy
-                  massa lacus Ultrices eget leo cras odio blandit rhoncus eues
-                  feugiat
-                </p>
-                <Link legacyBehavior href="/blog-list">
-                  <a className="btn-link">
-                    View More News <i className="far fa-long-arrow-right" />
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div className="col-xl-6">
-              {/*=== Single Blog Post ===*/}
-              <div className="single-blog-post-two mb-40 wow fadeInUp">
-                <div className="post-thumbnail">
-                  <img src="assets/images/blog/blog-4.jpg" alt="Blog Image" />
-                </div>
-                <div className="entry-content">
-                  <div className="post-meta">
-                    <span>
-                      <i className="far fa-calendar-alt" />
-                      <a href="#">November 15, 2022</a>
-                    </span>
-                    <h3 className="title">
-                      <Link legacyBehavior href="/blog-details">
-                        <a>Meet Skeleton Svelte Taile Sind For Reactive UIs</a>
-                      </Link>
-                    </h3>
-                    <Link legacyBehavior href="/blog-details">
-                      <a className="main-btn filled-btn">
-                        Read More
-                        <i className="far fa-paper-plane" />
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              {/*=== Single Blog Post ===*/}
-              <div className="single-blog-post-two mb-40 wow fadeInDown">
-                <div className="post-thumbnail">
-                  <img src="assets/images/blog/blog-5.jpg" alt="Blog Image" />
-                </div>
-                <div className="entry-content">
-                  <div className="post-meta">
-                    <span>
-                      <i className="far fa-calendar-alt" />
-                      <a href="#">November 15, 2022</a>
-                    </span>
-                    <h3 className="title">
-                      <Link legacyBehavior href="/blog-details">
-                        <a>Meet Skeleton Svelte Taile Sind For Reactive UIs</a>
-                      </Link>
-                    </h3>
-                    <Link legacyBehavior href="/blog-details">
-                      <a className="main-btn filled-btn">
-                        Read More
-                        <i className="far fa-paper-plane" />
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/*====== End Blog Section ======*/}
-      {/*====== Start Gallery Section ======*/}
-      <GallerySection />
-      {/*====== End Gallery Section ======*/}
     </Layout>
   );
 };
