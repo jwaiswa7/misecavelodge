@@ -30,22 +30,9 @@ const Index2 = () => {
                   <div className="col-xl-9">
                     {/*=== Hero Content ===*/}
                     <div className="hero-content text-white text-center">
-                      <span className="ribbon">Tour &amp; Travels</span>
                       <h1 data-animation="fadeInDown" data-delay=".4s">
-                        A home in Sipi
+                        Where Nature Meets Comfort
                       </h1>
-                      <div
-                        className="hero-button"
-                        data-animation="fadeInRight"
-                        data-delay=".6s"
-                      >
-                        <Link legacyBehavior href="/about">
-                          <a className="main-btn primary-btn">
-                            Explore More
-                            <i className="fas fa-paper-plane" />
-                          </a>
-                        </Link>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -65,22 +52,9 @@ const Index2 = () => {
                   <div className="col-xl-9">
                     {/*=== Hero Content ===*/}
                     <div className="hero-content text-white text-center">
-                      <span className="ribbon">Tour &amp; Travels</span>
                       <h1 data-animation="fadeInDown" data-delay=".4s">
-                        A home in Sipi
+                        Sipi's Best Kept Secret.
                       </h1>
-                      <div
-                        className="hero-button"
-                        data-animation="fadeInRight"
-                        data-delay=".6s"
-                      >
-                        <Link legacyBehavior href="/about">
-                          <a className="main-btn primary-btn">
-                            Explore More
-                            <i className="fas fa-paper-plane" />
-                          </a>
-                        </Link>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -99,22 +73,9 @@ const Index2 = () => {
                   <div className="col-xl-9">
                     {/*=== Hero Content ===*/}
                     <div className="hero-content text-white text-center">
-                      <span className="ribbon">Tour &amp; Travels</span>
                       <h1 data-animation="fadeInDown" data-delay=".4s">
-                        A home in Sipi
+                        Elevate Your Sipi Stay
                       </h1>
-                      <div
-                        className="hero-button"
-                        data-animation="fadeInRight"
-                        data-delay=".6s"
-                      >
-                        <Link legacyBehavior href="/about">
-                          <a className="main-btn primary-btn">
-                            Explore More
-                            <i className="fas fa-paper-plane" />
-                          </a>
-                        </Link>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -133,22 +94,9 @@ const Index2 = () => {
                   <div className="col-xl-9">
                     {/*=== Hero Content ===*/}
                     <div className="hero-content text-white text-center">
-                      <span className="ribbon">Tour &amp; Travels</span>
                       <h1 data-animation="fadeInDown" data-delay=".4s">
-                        A home in Sipi
+                        Be Our Guest, Feel Your Best
                       </h1>
-                      <div
-                        className="hero-button"
-                        data-animation="fadeInRight"
-                        data-delay=".6s"
-                      >
-                        <Link legacyBehavior href="/about">
-                          <a className="main-btn primary-btn">
-                            Explore More
-                            <i className="fas fa-paper-plane" />
-                          </a>
-                        </Link>
-                      </div>
                     </div>
                   </div>
                 </div>
